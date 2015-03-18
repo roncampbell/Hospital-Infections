@@ -18,14 +18,13 @@ https://data.medicare.gov/Hospital-Compare/Hospital-General-Information/xubh-q36
 
 "Hospital Reference 2015" is a cleaned version of this list. It includes latitudes and longitudes for virtually every hospital in the U.S., which should make mapping easy. The original file hid the lat/longs, making them a pain to extract.
 
-CMS posts the raw HAC scores -- just the hospital ID numbers (CCN), each hospital's score on a 1-to-10 best-to-worst scale and a Y-N indicating whether they were in the worst quartile (earning a 1 percent penalty). You can find those scores online at this site:
+CMS posts the raw HAC scores -- just the hospital ID numbers (CCN), each hospital's score on a 1-to-10 best-to-worst scale and a Y or N indicating whether they were in the worst quartile (earning a 1 percent penalty). You can find those scores online at this site:
 
 http://www.cms.gov/Medicare/Medicare-Fee-for-Service-Payment/AcuteInpatientPPS/downloads/FY2015-FR-Table17.zip
 
-Or you can take the data right now: HAC_Raw_Scores_2015 file.
+Or you can take the data from here: HAC_Raw_Scores 
 
-I've combined the raw data and the cleaned up hospital reference and put them in this file:
-HAC_Hospital_Basic_Scores
+I've combined the raw data and the cleaned up hospital reference and put them in this file: HAC_Hospital_Basic_Scores
 
 You will need to filter by state and possibly by county to find the hospitals you want. This file just lists the raw HAC score and a Y or N indicating whether a hospital was in the worst quartile.
 
